@@ -1,0 +1,154 @@
+<html>
+  <head>
+  <link rel='stylesheet' href='https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css' />
+  <title>Trump Impeached / Speech Generator</title>
+  <style>
+  body .span, body .reason { display: none; }
+
+  body.span-weeks .span-weeks,
+  body.span-months .span-months,
+  body.span-year .span-year,
+  body.span-years .span-years,
+  body.reason-emoluments .reason-emoluments,
+  body.reason-russia .reason-russia { display: inline; }
+  </style>
+  </head>
+  <body class='span-weeks reason-emoluments pa0 ma0'>
+  <article class='bb b--black-10 bg-washed-yellow pa3'>
+    <div class='measure-wide center f4'>
+      <div class='f5'>
+        Trump will last
+        <select onchange='setSpan(this.value)'>
+          <option value='span-weeks'>weeks</option>
+          <option value='span-months'>months</option>
+          <option value='span-year'>a year</option>
+          <option value='span-years'>a years</option>
+        </select>
+          and get impeached because of
+        <select onchange='setReason(this.value)'>
+          <option value='reason-emoluments'>the Emolument clause</option>
+          <option value='reason-russia'>Russia memos</option>
+        </select>
+      </div>
+    </div>
+  </article>
+  <article class='pa3 pa5-ns'>
+    <div class='center measure-wide f4'>
+      <img class='fr' style='width:120px;height:120px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Trump_Circle.png/240px-Trump_Circle.png' />
+      <h2 class='f3 f2-m f1-l mb2 black-80 mt3'>🇺🇸 Trump Impeachment Speech</h2>
+      <h3 class='f3 fw4 lh-title mt0 mb4 black-50'>Speculative near-future fantasy satire generator ✨</h3>
+    </div>
+    <div class='serif center measure-wide black-80 f4'>
+    
+      <div id='intro'>
+        <p class='measure-wide lh-copy'>
+        Let me begin by expressing my profound thanks to the members of Congress who have pursued
+        fairness in the
+        <span class='span span-weeks'>past few weeks.</span>
+        <span class='span span-months'>last few months.</span>
+        <span class='span span-year'>past year.</span>
+        <span class='span span-years'>past years.</span>
+        </p>
+
+        <p class='measure-wide lh-copy'>
+        I thank the millions of Americans who have fought to make America great again,
+        who voted for me, and who have supported my family and what we stand for.
+        </p>
+      </div>
+
+      <div id='recap'>
+        <p class='measure-wide lh-copy'>
+        Now, I know a lot of you are disappointed with how everything turned out. I've
+        built one of the best administrations ever seen: ever. And, let me tell you,
+        we got stuff done. We put America First, and we're going to keep putting America
+        First.
+        </p>
+      </div>
+
+      <p class='measure-wide lh-copy'>
+      And for all of you who are out of work, who have gotten a raw deal
+      in the last eight years, I wanted to build America like I've built
+      wonderful, huge businesses from the ground up. My success in the real
+      estate and investments is where I learned how to win, and we should win.
+      </p>
+
+      <div id='guilt'>
+        
+
+        <p class='measure-wide lh-copy reason reason-emoluments'>
+        But now they're saying that it was too much: that I can't have a successful
+        business and also save this country. Sadly, in discussions with many
+        leaders, I've decided that with the Emolument Clause matter I no longer have
+        the support of Congress.
+        </p>
+
+        <p class='measure-wide lh-copy reason reason-russia'>
+        But unfortunately, there are many in our government who have
+        been against me - against us, from the very beginning. Trust me,
+        I know how to create deals, and since the second I started being
+        president, the press has been very unfair to me. I say and I will continue
+        to say that Russia is a strong ally and that America needs to 
+        be America first.
+        </p>
+
+      </div>
+
+      <div id='transfer'>
+        <p class='measure-wide lh-copy'>
+        So today I'm passing the power of the United States Presidency to Mr. Mike Pence,
+        my first pick for Vice President and an incredibly great leader. A great man.
+        Trust me, he knows how to fix this country, and there's no one better to do it.
+        </p>
+      </div>
+
+      <div id='outro'>
+        <p class='measure-wide lh-copy'>
+        It has been my honor to lead this country, and starting this movement. It's going
+        to keep going, and we're just seeing the beginning of a new, stronger America.
+        </p>
+
+        <p class='measure-wide lh-copy'>
+        Thank you, and goodnight.
+        </p>
+      </div>
+    
+    </div>
+  </article>
+  <article class='pa3 pa5-ns bt b--black-10 bg-washed-yellow'>
+    <div class='center measure-wide f4 pv5-ns'>
+      <h2 class='f3 f2-m f1-l black-80'>This isn't real, yet, but it could be soon.</h2>
+
+      <div class='reason reason-emoluments'>
+        <a class='link dim f4 ttu blue b' href='https://www.washingtonpost.com/blogs/right-turn/wp/2016/12/18/trump-is-on-target-to-violate-the-constitution-the-moment-he-takes-the-oath-of-office/'>Trump is on target to violate the Constitution the moment he takes the oath of office</a>
+        <blockquote class='ma0 pv3 serif lh-copy black-70'>We have had smart presidents and dim ones, effective ones and incompetents, successful ones and unaccomplished ones. Until now, we have never had one for whom it was legitimate to question at the onset of his presidency whether he could fulfill his oath to “preserve, protect and defend the Constitution of the United States.”</blockquote>
+      </div>
+
+      <div class='reason reason-russia'>
+        <a class='link dim f4 ttu blue b' href='http://www.forbes.com/sites/thomasbrewster/2017/01/11/impeachable-but-unverified-trump-russia-memo/#ec18a45586f3'>There Are 'Impeachable' Claims In That Trump Russia Memo, But Are They True?</a>
+        <blockquote class='ma0 pv3 serif lh-copy black-70'>And for good reason: if some of the facts relayed by unnamed sources to an also-unnamed ex-British intelligence officer are true, they could be treasonous, impeachable even, according to former NSA legal counsel Susan Hennessey.</blockquote>
+      </div>
+
+      <h1 class='f5 mt4 ttu tracked fw6'>More reading</h1>
+      <a class='link blue' href='https://www.washingtonpost.com/news/the-fix/wp/2016/11/11/prediction-professor-who-called-trumps-big-win-also-made-another-forecast-trump-will-be-impeached/'>‘Prediction professor’ who called Trump’s big win also made another forecast: Trump will be impeached</a>
+    </div>
+  </article>
+  <script>
+function setSpan(span) {
+  document.body.classList.forEach(function (klass) {
+    if (klass.match(/^span/)) {
+      document.body.classList.remove(klass);
+    }
+    document.body.classList.add(span);
+  });
+}
+function setReason(reason) {
+  document.body.classList.forEach(function (klass) {
+    if (klass.match(/^reason/)) {
+      document.body.classList.remove(klass);
+    }
+    document.body.classList.add(reason);
+  });
+}
+  </script>
+  </body>
+</html>
